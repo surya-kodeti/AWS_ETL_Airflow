@@ -7,6 +7,8 @@ import re
 from alive_progress import alive_bar
 from datetime import datetime
 import boto3
+import io
+from io import StringIO
 
 
 def run_etl():
