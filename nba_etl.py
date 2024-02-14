@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import re
 from alive_progress import alive_bar
 from datetime import datetime
-import psycopg2
 import boto3
 
 
