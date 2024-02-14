@@ -63,3 +63,5 @@ def run_etl():
     object_name = "test_df.csv"
     
     response = s3_client.put_object(Bucket=bucket_name, Key=object_name, Body=csv_buffer.getvalue())
+
+run_etl()
